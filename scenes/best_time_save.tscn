@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://0lnmg8dm72kj"]
+
+[ext_resource type="Script" path="res://scripts/BestTime.gd" id="1_5w0or"]
+
+[node name="BestTimeSave" type="Node" groups=["Persist"]]
+script = ExtResource("1_5w0or")

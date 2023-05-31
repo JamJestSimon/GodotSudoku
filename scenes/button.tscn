@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://d1h0odcp0ehki"]
+
+[ext_resource type="Script" path="res://scripts/button.gd" id="1_hjvc1"]
+
+[node name="Button" type="Button"]
+custom_minimum_size = Vector2(40, 40)
+focus_mode = 0
+toggle_mode = true
+action_mode = 0
+text = "
+"
+script = ExtResource("1_hjvc1")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

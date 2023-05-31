@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://bnof5lul1wjmd"]
+
+[ext_resource type="Script" path="res://scripts/level_select.gd" id="1_guph8"]
+
+[node name="Button" type="Button"]
+custom_minimum_size = Vector2(70, 30)
+offset_right = 8.0
+offset_bottom = 8.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_guph8")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]
